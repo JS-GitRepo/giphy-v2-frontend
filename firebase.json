@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "giphy-v2",
+    "public": "build",
     "ignore": [
       "firebase.json",
       "**/.*",
