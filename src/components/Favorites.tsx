@@ -10,7 +10,6 @@ import "./Favorites.css";
 const Favorites = () => {
   const { user } = useContext(AuthContext);
   const { favorites } = useContext(FavoritesContext);
-  const navigate = useNavigate();
 
   return (
     <div className="Favorites">

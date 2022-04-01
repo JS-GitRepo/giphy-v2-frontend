@@ -19,7 +19,7 @@ const Details = () => {
       .catch(() => {
         navigate("/");
       });
-  }, [id]);
+  }, [id, navigate]);
 
   return (
     <div className="Details">
